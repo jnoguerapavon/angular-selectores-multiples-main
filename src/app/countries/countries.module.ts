@@ -7,17 +7,21 @@ import { CountriesRoutingModule } from './countries-routing.module';
 
 import { SelectorPageComponent } from './pages/selector-page/selector-page.component';
 
+import { SpinnerComponent } from '../shared/components/spinner/spinner.component';
+
 
 
 @NgModule({
   declarations: [
-    SelectorPageComponent
+    SelectorPageComponent,
+    SpinnerComponent
   ],
   imports: [
     CommonModule,
     CountriesRoutingModule,
     ReactiveFormsModule,
     MatProgressSpinnerModule, // Importa el módulo aquí
+
   ],
   providers: [ /* servicios */]
 })
