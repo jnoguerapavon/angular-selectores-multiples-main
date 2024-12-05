@@ -1,0 +1,14 @@
+
+
+.spinner-overlay {
+  position: fixed; /* Fijar el spinner en la pantalla */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ocupar toda la pantalla */
+  height: 100%; /* Ocupar toda la pantalla */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  display: flex; /* Usar flexbox para centrar */
+  align-items: center; /* Centrar verticalmente */
+  justify-content: center; /* Centrar horizontalmente */
+  z-index: 1000; /* Asegurarse de que esté encima de otros elementos */
+}

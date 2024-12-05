@@ -1,6 +1,23 @@
 
+
+
+<div class="spinner-overlay" *ngIf="isLoading">
+    <!-- Spinner con carga definida -->
+    <mat-progress-spinner
+    mode="determinate"
+    [value]="progressValue"
+  ></mat-progress-spinner>
+</div>
+
+
+
+
+
 <h1 class="mt-3" >Selectores anidados</h1>
 <hr>
+
+
+
 
 <form [formGroup]="myForm">
 
